@@ -277,10 +277,11 @@ section .title::after{
     content: "ce putem oferi noi?";
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(80% - 0px);
     background: #222;
     text-align: center;
     border-radius: 6px;
+    margin-top: 20px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -450,7 +451,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "trimite un mesaj";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);

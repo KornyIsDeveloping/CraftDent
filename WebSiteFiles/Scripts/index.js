@@ -49,7 +49,7 @@ $(document).ready(function(){
     });
 
     // owl carousel script
-    $('.carousel').owlCarousel({
+    $('#servicesCarousel').owlCarousel({
         margin: 20,
         loop: true,
         autoplay: true,
@@ -69,5 +69,12 @@ $(document).ready(function(){
                 nav: false
             }
         }
+    });
+
+    $('#teamCarousel').owlCarousel({
+        items: 2,
+        loop: false,
+        margin: 20,
+        nav: false
     });
 });
